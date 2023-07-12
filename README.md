@@ -13,13 +13,13 @@ You can implement this in any desired programming language, of course, if you ar
 * if you are using writeline of command , you dont need to use \r\n
 
 * after dial *#0*# Open your serialport then follow this write items
-**  ```AT+SWATD=0\r\n```
-**  ```AT+ACTIVATE=0,0,0\r\n```
-**  ```AT+SWATD=1\r\n ```
+*  ```AT+SWATD=0\r\n```
+*  ```AT+ACTIVATE=0,0,0\r\n```
+*  ```AT+SWATD=1\r\n ```
 
 * in this step, you need country Code to changing
-**  ``` AT+PRECONFG=2,YourCountryCode\r\n```
+*  ``` AT+PRECONFG=2,YourCountryCode\r\n```
 * Like can be
-**  ``` AT+PRECONFG=2,THL\r\n```
+*  ``` AT+PRECONFG=2,THL\r\n```
 * for rebooting device
-**  ``` AT+CFUN=1,1\r\n```
+*  ``` AT+CFUN=1,1\r\n```
